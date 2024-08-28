@@ -1,0 +1,8 @@
+prefix=/home/cwkj/demo05_ws/install
+
+Name: arbotix_sensors
+Description: Description of arbotix_sensors
+Version: 0.11.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

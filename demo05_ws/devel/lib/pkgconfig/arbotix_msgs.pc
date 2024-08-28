@@ -1,0 +1,8 @@
+prefix=/home/cwkj/demo05_ws/devel
+
+Name: arbotix_msgs
+Description: Description of arbotix_msgs
+Version: 0.11.0
+Cflags: -I/home/cwkj/demo05_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime std_msgs

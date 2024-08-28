@@ -1,0 +1,8 @@
+prefix=/home/cwkj/demo04_ws/install
+
+Name: rosbag_demo
+Description: Description of rosbag_demo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

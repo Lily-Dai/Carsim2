@@ -1,0 +1,16 @@
+<launch>
+    <node pkg ="turtlesim" type = "turtlesim_node" name = "my_turtle" />
+    
+    <!--名称重映射-->
+    <node pkg ="turtlesim" type = "turtlesim_node" name = "t1" />
+
+    <!--命名空间-->
+    <node pkg ="turtlesim" type = "turtlesim_node" name = "my_turtle" ns="ergouzi" />
+
+    <!--命名空间+名称重映射-->
+    <node pkg ="turtlesim" type = "turtlesim_node" name = "t2" ns ="maolvzi"/>
+
+
+
+
+</launch>

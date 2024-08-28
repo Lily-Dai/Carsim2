@@ -1,0 +1,8 @@
+prefix=/home/cwkj/demo05_ws/devel
+
+Name: arbotix_controllers
+Description: Description of arbotix_controllers
+Version: 0.11.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

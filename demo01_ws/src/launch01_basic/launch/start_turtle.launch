@@ -1,0 +1,32 @@
+<launch deprecated = "此文件已经过时，不建议使用">
+    <!--启动的节点-->
+    <!--respawn= "true"节点关闭之后自动重启-->
+    <!--required = "true"节点退出之后关闭整个系统-->
+    <!--ns = "hello"设置节点的命名空间-->
+    <!--param 使用向参数服务器设置参数-->
+    <!--格式1：launch下，node外-->
+
+
+    <param name ="param_A" type="int" value="100"/>
+    <!--rosparam 使用：操作参数服务器数据-->
+    <!--格式1：launch下，node外-->
+    <!--加载参数-->
+
+    <rosparam command ="load" file ="$(find launch01_basic)/launch/params.yaml"/>
+    <!--导出参数-->
+    <rosparam command ="dump" file ="$(find launch01_basic)/launch/params_out.yaml"/>
+
+    <node pkg ="turtlesim" type = "turtlesim_node" name = "my_turtle" output= "screen" >
+        <remap from="/turtle1/cmd_vel" to="/cmd_vel"/>
+        <!--格式2：node下-->
+
+        <param name="param_B" type="double" value="3.14"/>
+        <!--格式2：node下-->
+        <rosparam command ="load" file ="$(find launch01_basic)/launch/params.yaml"/>
+
+    </node>
+    <!--键盘控制节点-->
+    <node pkg ="turtlesim" type = "turtle_teleop_key" name = "my_key" output= "screen"/>
+
+
+</launch>

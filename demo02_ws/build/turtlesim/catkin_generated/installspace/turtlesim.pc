@@ -1,0 +1,8 @@
+prefix=/home/cwkj/demo02_ws/install
+
+Name: turtlesim
+Description: Description of turtlesim
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

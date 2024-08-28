@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/noetic/include/**",
+        "/home/cwkj/demo01_ws/src/helloworld/include/**",
+        "/usr/include/**",
+        "/home/cwkj/demo01_ws/devel/include/**",
+        "/home/cwkj/demo01_ws/src/plumbing_head/include/**",
+        "/home/cwkj/demo01_ws/src/plumbing_head_src/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

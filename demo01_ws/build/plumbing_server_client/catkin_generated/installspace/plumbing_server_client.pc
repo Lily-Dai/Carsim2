@@ -1,0 +1,8 @@
+prefix=/home/cwkj/demo01_ws/install
+
+Name: plumbing_server_client
+Description: Description of plumbing_server_client
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

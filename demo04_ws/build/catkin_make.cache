@@ -1,0 +1,2 @@
+rosbag_demo:rqt_demo:tf01_static:tf02_dynamic:tf03_tfs:tf04_test
+-DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/cwkj/demo04_ws/devel -DCMAKE_INSTALL_PREFIX=/home/cwkj/demo04_ws/install -G Unix Makefiles

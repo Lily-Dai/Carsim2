@@ -1,0 +1,8 @@
+prefix=/home/cwkj/demo04_ws/devel
+
+Name: rqt_demo
+Description: Description of rqt_demo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
