@@ -1,7 +1,7 @@
 # Carsim2
 主要用于存放仿真代码。完全按照赵虚左老师的教学顺序来定义顺序。使用教程请看:http://www.autolabor.com.cn/book/ROSTutorials/di-2-zhang-ros-jia-gou-she-ji.html
 
-如果大家在学习过程中写不出来可以参考一下,但是需要自己照着敲一遍,这样学得更多。如果大家使用没有问题的话,可以点个star吗? :blush: :blush: :blush: 嘿嘿感谢大家! :kissing_closed_eyes: :kissing_closed_eyes: :kissing_closed_eyes: 
+如果大家在学习过程中写不出来可以参考一下,但是需要自己照着敲一遍,这样学得更多。如果大家使用没有问题的话,可以点个star吗? :blush::blush::blush:嘿嘿感谢大家! :kissing_closed_eyes::kissing_closed_eyes::kissing_closed_eyes: 
 
 # 坐标变换
 使用TF坐标变换,运用静态坐标变换和动态坐标变换。
