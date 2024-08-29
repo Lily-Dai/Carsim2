@@ -1,5 +1,7 @@
 # Carsim2
-主要用于存放仿真代码。
+主要用于存放仿真代码。完全按照赵虚左老师的教学顺序来定义顺序。使用教程请看:http://www.autolabor.com.cn/book/ROSTutorials/di-2-zhang-ros-jia-gou-she-ji.html
+
+如果大家在学习过程中写不出来可以参考一下,但是需要自己照着敲一遍,这样学得更多。如果大家使用没有问题的话,可以点个star吗:blush::blush::blush:~嘿嘿感谢大家:kissing_closed_eyes::kissing_closed_eyes::kissing_closed_eyes:~
 
 # 坐标变换
 使用TF坐标变换,运用静态坐标变换和动态坐标变换。
@@ -22,4 +24,5 @@ AMCL(adaptive Monte Carlo Localization) 是用于2D移动机器人的概率定�
 使用move_base包对机器人进行导航,该包全局规划：用的是A*和D*算法,局部规划用的是DWA。move_base功能包提供了基于动作(action)的路径规划实现，move_base 可以根据给定的目标点，控制机器人底盘运动至目标位置，并且在运动过程中会连续反馈机器人自身的姿态与目标点的状态信息。
 
 ![如下图所示](https://github.com/Lily-Dai/Carsim2/blob/master/4.gif)
+
 
